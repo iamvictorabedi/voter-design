@@ -1,6 +1,7 @@
 import ParticlesBg from "particles-bg";
 
 export const Header = (props) => {
+  console.log("props", props)
   return (
     <header id='header'>
       <div className='intro'>
@@ -19,7 +20,7 @@ export const Header = (props) => {
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  Learn More
+                  Vote Now
                 </a>{' '}
               </div>
             </div>

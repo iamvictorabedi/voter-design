@@ -1,6 +1,6 @@
-export const About = (props) => {
+export const Secretary = (props) => {
   return (
-    <div id='about'>
+    <div id='secretary'>
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
