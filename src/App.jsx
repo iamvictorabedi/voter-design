@@ -3,8 +3,8 @@ import {Navigation} from './components/navigation'
 import {Header} from './components/header'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-import {Candidates} from "./components/candidates";
 import {Footer} from "./components/footer";
+import Candidates from "./components/candidates/Candidate";
 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -22,11 +22,11 @@ const App = () => {
         <div>
             <Navigation />
             <Header data={landingPageData.Header} />
-            <Candidates data={landingPageData.Features} />
-            <Candidates data={landingPageData.Features} />
-            <Candidates data={landingPageData.Features} />
-            <Candidates data={landingPageData.Features} />
-            <Candidates data={landingPageData.Features} />
+            <Candidates data={landingPageData.President} />
+            {/*<Candidates data={landingPageData.Features} />*/}
+            {/*<Candidates data={landingPageData.Features} />*/}
+            {/*<Candidates data={landingPageData.Features} />*/}
+            {/*<Candidates data={landingPageData.Features} />*/}
 
             {/*<Secretary data={landingPageData.Secretary} />*/}
             {/*<Services data={landingPageData.Services} />*/}

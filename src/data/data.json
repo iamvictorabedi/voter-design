@@ -5,53 +5,45 @@
         "paragraph": "Today, most American citizens over the age of 18 are entitled to vote in federal and state elections, but voting was not always a default right for all Americans. The United States Constitution, as originally written, did not define specifically who could or could not vote—but it did establish how the new country would vote."
 
     },
-    "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
-    },
-    "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "President": [
+        {
+            "_id": 1,
+            "name": "Ken Kamau",
+            "image": "thom.jpeg",
+            "votes":0
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "_id": 2,
+            "name": "Brian Kwamboka",
+            "image": "oliver.jpeg",
+            "votes":0
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "_id": 3,
+            "name": "Kimani Nyambura",
+            "image": "jane.jpeg",
+            "votes":0
         }
-
-
+    ],
+    "Secretary": [
+        {
+            "_id": 1,
+            "name": "Brian Waweru",
+            "image": "thom.jpeg",
+            "votes":0
+        },
+        {
+            "_id": 2,
+            "name": "Oscar Kambona",
+            "image": "oliver.jpeg",
+            "votes":0
+        },
+        {
+            "_id": 3,
+            "name": "Dedan Kimathi",
+            "image": "jane.jpeg",
+            "votes":0
+        }
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
